@@ -37,7 +37,7 @@ def datagenerate(records, headers):
                     })
     
 if __name__ == '__main__':
-    records = 10
+    records = 2000
     headers = ["Name", "age", "Email Id", "Phone Number", "Birth Date",
                "Address", "Zip Code", "Country"]
     datagenerate(records, headers)
